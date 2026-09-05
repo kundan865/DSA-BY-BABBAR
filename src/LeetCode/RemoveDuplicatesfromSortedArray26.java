@@ -4,25 +4,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class RemoveDuplicatesfromSortedArray26 {
-    public static int removeDuplicates(int[] nums) {
-        List<Integer> list = new ArrayList<>();
-        int n = nums.length;
-        int ans = 1;
-        list.add(nums[0]);
-
-        for(int i=1;i<n;i++){
-            if(nums[i] == nums[i-1]){
-                continue;
-            }else {
-                ans++;
-                list.add(nums[i]);
-            }
-        }
-        for(int i=0;i<list.size();i++){
-            nums[i] = list.get(i);
-        }
-        return ans;
-    }
 
     public static int removeDuplicates1(int[] nums) {
         int n = nums.length;

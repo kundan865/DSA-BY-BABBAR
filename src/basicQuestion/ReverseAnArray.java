@@ -1,11 +1,9 @@
 package basicQuestion;
 
+import static basicQuestion.Math.swap;
+
 public class ReverseAnArray {
-    static void swap(int[] arr ,int st,int end){
-        int temp = arr[st];
-        arr[st] = arr[end];
-        arr[end] = temp;
-    }
+
     public static void reverse(int[]arr){
         int st = 0;
         int end = arr.length - 1;

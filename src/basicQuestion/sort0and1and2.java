@@ -1,11 +1,8 @@
 package basicQuestion;
 
+import static basicQuestion.Math.swap;
+
 public class sort0and1and2 {
-    static void swap(int [] arr,int st,int end){
-        int temp = arr[st];
-        arr[st] = arr[end];
-        arr[end] = temp;
-    }
 
     static void sort(int[] arr) {
         int low = 0;
