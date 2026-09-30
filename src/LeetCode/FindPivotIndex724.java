@@ -1,6 +1,7 @@
 package LeetCode;
 
 public class FindPivotIndex724 {
+
     static int findPivot(int[] nums){
 
         int n = nums.length;

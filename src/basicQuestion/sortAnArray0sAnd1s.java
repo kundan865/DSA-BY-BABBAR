@@ -1,6 +1,6 @@
 package basicQuestion;
 
-import static basicQuestion.Math.swap;
+import static Math.Math.swap;
 
 public class sortAnArray0sAnd1s {
 
