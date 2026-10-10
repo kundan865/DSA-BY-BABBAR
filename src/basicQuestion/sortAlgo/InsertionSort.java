@@ -1,4 +1,4 @@
-package basicQuestion;
+package basicQuestion.sortAlgo;
 
 public class InsertionSort {
     static void insertionSort(int []nums){

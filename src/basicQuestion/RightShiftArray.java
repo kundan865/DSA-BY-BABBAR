@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class RightShiftArray {
+
     static void rightShift(int [] arr,int k){
         List<Integer> list = new ArrayList<>();
         int position = k % arr.length;

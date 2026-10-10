@@ -1,8 +1,5 @@
 package LeetCode;
 
-import java.util.ArrayList;
-import java.util.List;
-
 public class RemoveDuplicatesfromSortedArray26 {
 
     public static int removeDuplicates1(int[] nums) {

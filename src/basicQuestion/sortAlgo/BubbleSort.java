@@ -1,4 +1,4 @@
-package basicQuestion;
+package basicQuestion.sortAlgo;
 
 import static Math.Math.swap;
 

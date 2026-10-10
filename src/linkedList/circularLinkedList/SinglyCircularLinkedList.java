@@ -1,6 +1,6 @@
 package linkedList.circularLinkedList;
 
-public class CircularSinglyLinkedList {
+public class SinglyCircularLinkedList {
 
     static class Node {
         int val;
@@ -15,7 +15,7 @@ public class CircularSinglyLinkedList {
     private Node tail;
     private int size;
 
-    CircularSinglyLinkedList(){
+    SinglyCircularLinkedList(){
         this.head  = null;
         this.tail = null;
         this.size = 0;
@@ -202,6 +202,8 @@ public class CircularSinglyLinkedList {
 
             temp.next = head;
             tail = temp;
+
+            tail.next = head;
         }
 
         size--;
@@ -238,7 +240,7 @@ public class CircularSinglyLinkedList {
     }
 
     public static void main(String[] args) {
-        CircularSinglyLinkedList list = new CircularSinglyLinkedList();
+        SinglyCircularLinkedList list = new SinglyCircularLinkedList();
 
         list.insertAtHead(5);
         list.insertAtHead(4);
